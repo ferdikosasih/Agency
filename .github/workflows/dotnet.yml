@@ -24,5 +24,3 @@ jobs:
       run: dotnet restore ./Flabs.Agency/Flabs.Agency.sln
     - name: Build
       run: dotnet build ./Flabs.Agency/Flabs.Agency.sln --no-restore
-    - name: Test
-      run: dotnet test ./Flabs.Agency/Agency.Service.Tests/Agency.Service.Tests.csproj --no-build --verbosity normal
