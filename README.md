@@ -22,7 +22,7 @@ It's agency system to manages appointments for Customers / Clients.
 - **Testcontainers (PostgreSQL)** - Containerized testing environment
 - **Serilogs** - Logging Console
 - **PostgreSQL** - High-performance relational database
-- **Ulid** - for token generation simplicity based on timestamp
+- **Ulid** - for token appointment generation simplicity based on timestamp
 ---
 ## 🔧 Setup & Installation
 ### **1️⃣ Prerequisites**
