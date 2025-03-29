@@ -73,8 +73,7 @@ Pull requests are welcome! Follow these steps:
 4. Push to the branch (`git push origin feature-name`)
 5. Open a pull request
 
-
-
+[![.NET](https://github.com/ferdikosasih/Agency/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/ferdikosasih/Agency/actions/workflows/dotnet.yml)
 
 
 
