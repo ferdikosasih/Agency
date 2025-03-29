@@ -1,0 +1,1325 @@
+{
+    "status": 200,
+    "warning": "These results do not include state and province holidays. For more information, please visit https:\/\/holidayapi.com\/docs",
+    "requests": {
+        "used": 3,
+        "available": 9997,
+        "resets": "2025-04-01 00:00:00"
+    },
+    "holidays": [
+        {
+            "name": "New Year's Day",
+            "date": "2025-01-01",
+            "observed": "2025-01-01",
+            "public": true,
+            "country": "ID",
+            "uuid": "e5252e5e-ad1e-4f9e-83d4-b126a72678ce",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Ministry of Religious Affairs Day",
+            "date": "2025-01-03",
+            "observed": "2025-01-03",
+            "public": false,
+            "country": "ID",
+            "uuid": "28f26115-a4c7-434f-905b-5bc4b20d563a",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Ocean Duty Day",
+            "date": "2025-01-15",
+            "observed": "2025-01-15",
+            "public": false,
+            "country": "ID",
+            "uuid": "3dc0fc0d-bec6-4b40-ad6f-cb17972c7b10",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Muhammad's Ascension to Heaven",
+            "date": "2025-02-08",
+            "observed": "2025-02-08",
+            "public": true,
+            "country": "ID",
+            "uuid": "80871fd1-6022-47a5-9a0b-a1fef8c5e7ca",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "Lunar New Year's Day",
+            "date": "2025-02-10",
+            "observed": "2025-02-10",
+            "public": true,
+            "country": "ID",
+            "uuid": "b24d3f0f-7e83-47a6-855c-81136f7ee67e",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Lantern Festival",
+            "date": "2025-02-24",
+            "observed": "2025-02-24",
+            "public": false,
+            "country": "ID",
+            "uuid": "8d75bd25-25a7-4645-8679-4c3798885d4f",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Maha Shivaratri",
+            "date": "2025-03-08",
+            "observed": "2025-03-08",
+            "public": false,
+            "country": "ID",
+            "uuid": "e400f0c3-b545-427f-8f5f-2bfa25dbffc5",
+            "weekday": {
+                "date": {
+                    "name": "Friday",
+                    "numeric": "5"
+                },
+                "observed": {
+                    "name": "Friday",
+                    "numeric": "5"
+                }
+            }
+        },
+        {
+            "name": "Day of Silence",
+            "date": "2025-03-11",
+            "observed": "2025-03-11",
+            "public": true,
+            "country": "ID",
+            "uuid": "cfd47d19-b58f-4bb4-b137-7d69dd4d651e",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "March Equinox",
+            "date": "2025-03-20",
+            "observed": "2025-03-20",
+            "public": false,
+            "country": "ID",
+            "uuid": "357ab77e-2090-48e0-b333-8c209cf0698f",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Festival of Colors",
+            "date": "2025-03-25",
+            "observed": "2025-03-25",
+            "public": false,
+            "country": "ID",
+            "uuid": "d616871a-d637-495d-b4d8-074f794a1fdc",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Good Friday",
+            "date": "2025-03-29",
+            "observed": "2025-03-29",
+            "public": true,
+            "country": "ID",
+            "uuid": "d8ead082-bf03-422f-bdf7-1e98d662c78e",
+            "weekday": {
+                "date": {
+                    "name": "Friday",
+                    "numeric": "5"
+                },
+                "observed": {
+                    "name": "Friday",
+                    "numeric": "5"
+                }
+            }
+        },
+        {
+            "name": "Easter",
+            "date": "2025-03-31",
+            "observed": "2025-03-31",
+            "public": false,
+            "country": "ID",
+            "uuid": "c0d47211-57e4-4ec1-82ee-f27caeb62a88",
+            "weekday": {
+                "date": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                },
+                "observed": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                }
+            }
+        },
+        {
+            "name": "National Fisherman Day",
+            "date": "2025-04-06",
+            "observed": "2025-04-06",
+            "public": false,
+            "country": "ID",
+            "uuid": "b390e739-9668-476b-8fdd-45f1c7364270",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Air Force Day",
+            "date": "2025-04-09",
+            "observed": "2025-04-09",
+            "public": false,
+            "country": "ID",
+            "uuid": "1ed0e313-6966-4000-9057-92a44b5bc7c2",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "Festival of Breaking the Fast",
+            "date": "2025-04-10",
+            "observed": "2025-04-10",
+            "public": true,
+            "country": "ID",
+            "uuid": "b58acfab-541a-4af2-8b1a-1b38277d4aef",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Second Day of the Festival of Breaking the Fast",
+            "date": "2025-04-11",
+            "observed": "2025-04-11",
+            "public": true,
+            "country": "ID",
+            "uuid": "083e9683-3c10-4dd1-ae1a-3ac40b26cdcb",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "Kartini Day",
+            "date": "2025-04-21",
+            "observed": "2025-04-21",
+            "public": false,
+            "country": "ID",
+            "uuid": "1041c731-3c00-4190-8af9-4d1e84b2a40e",
+            "weekday": {
+                "date": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                },
+                "observed": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                }
+            }
+        },
+        {
+            "name": "Earth Day",
+            "date": "2025-04-22",
+            "observed": "2025-04-22",
+            "public": false,
+            "country": "ID",
+            "uuid": "8cf72e85-0861-4961-8c9f-320d8a288b92",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Labor Day",
+            "date": "2025-05-01",
+            "observed": "2025-05-01",
+            "public": true,
+            "country": "ID",
+            "uuid": "05fd47b3-1b47-475d-9b8b-9101b565c5df",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "National Education Day",
+            "date": "2025-05-02",
+            "observed": "2025-05-02",
+            "public": false,
+            "country": "ID",
+            "uuid": "396b9f77-67d0-4a2f-9681-a3d3ca8fbcaa",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "Feast of the Ascension of Jesus Christ",
+            "date": "2025-05-09",
+            "observed": "2025-05-09",
+            "public": true,
+            "country": "ID",
+            "uuid": "c638a678-edb7-4093-8fe5-755bfa770894",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "Day of the Military Police of the Indonesian National Armed Forces",
+            "date": "2025-05-11",
+            "observed": "2025-05-11",
+            "public": false,
+            "country": "ID",
+            "uuid": "c33a6de2-2937-4875-b324-6390039fea5d",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "National Awakening Day",
+            "date": "2025-05-20",
+            "observed": "2025-05-20",
+            "public": false,
+            "country": "ID",
+            "uuid": "0da022e5-4f2b-43e8-a6bd-b0706d708fa7",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Buddha's Birthday",
+            "date": "2025-05-23",
+            "observed": "2025-05-23",
+            "public": true,
+            "country": "ID",
+            "uuid": "44207b03-054a-405f-9703-7799944b49f3",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "National Elderly Day",
+            "date": "2025-05-29",
+            "observed": "2025-05-29",
+            "public": false,
+            "country": "ID",
+            "uuid": "1eba7d72-cec8-45d0-a941-312f3ae55e30",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Pancasila Day",
+            "date": "2025-06-01",
+            "observed": "2025-06-01",
+            "public": true,
+            "country": "ID",
+            "uuid": "591c55d5-635f-4a71-a09d-ead50d8d02c8",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Feast of the Sacrifice",
+            "date": "2025-06-17",
+            "observed": "2025-06-17",
+            "public": true,
+            "country": "ID",
+            "uuid": "68d72b04-86bd-4332-969f-ebe3417f43cb",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Second Day of the Feast of the Sacrifice",
+            "date": "2025-06-18",
+            "observed": "2025-06-18",
+            "public": true,
+            "country": "ID",
+            "uuid": "28fb1aa7-f15d-4b4c-999a-f7ed6ca295b7",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "June Solstice",
+            "date": "2025-06-20",
+            "observed": "2025-06-20",
+            "public": false,
+            "country": "ID",
+            "uuid": "1b161f6e-00e9-4860-ba6b-18c1d9ffbef9",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "National Family Day",
+            "date": "2025-06-29",
+            "observed": "2025-06-29",
+            "public": false,
+            "country": "ID",
+            "uuid": "2efe50aa-ae81-470e-9c0e-3f288bc3ead1",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Islamic New Year's Day",
+            "date": "2025-07-07",
+            "observed": "2025-07-07",
+            "public": true,
+            "country": "ID",
+            "uuid": "980b4d33-bef2-4da7-bfbc-6e0bc714346b",
+            "weekday": {
+                "date": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                },
+                "observed": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                }
+            }
+        },
+        {
+            "name": "Attorney Day",
+            "date": "2025-07-22",
+            "observed": "2025-07-22",
+            "public": false,
+            "country": "ID",
+            "uuid": "ead82cdf-eb92-4cd7-b339-1344e27fc44e",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "National Children Day",
+            "date": "2025-07-23",
+            "observed": "2025-07-23",
+            "public": false,
+            "country": "ID",
+            "uuid": "b113ea6a-97e6-4159-a9f2-3c67458aa6df",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "National Technology Uprising Day",
+            "date": "2025-08-10",
+            "observed": "2025-08-10",
+            "public": false,
+            "country": "ID",
+            "uuid": "ab302089-f72d-407c-b074-023e16da7f5e",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "National Veterans Day",
+            "date": "2025-08-10",
+            "observed": "2025-08-10",
+            "public": false,
+            "country": "ID",
+            "uuid": "03d387b4-224c-44bb-bc24-c62f5635bb14",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Indonesian Scout Movement Day",
+            "date": "2025-08-14",
+            "observed": "2025-08-14",
+            "public": false,
+            "country": "ID",
+            "uuid": "31ef1aa9-11b0-49e9-921f-1b1778d7a0dd",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Independence Day",
+            "date": "2025-08-17",
+            "observed": "2025-08-17",
+            "public": true,
+            "country": "ID",
+            "uuid": "b102ad3d-d5d6-46b6-8377-16a3d2e4cfbf",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Raksha Bandhan",
+            "date": "2025-08-19",
+            "observed": "2025-08-19",
+            "public": false,
+            "country": "ID",
+            "uuid": "e86a26c9-6bc3-488a-8c37-41ec4e868872",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Television Day",
+            "date": "2025-08-24",
+            "observed": "2025-08-24",
+            "public": false,
+            "country": "ID",
+            "uuid": "57a20ae0-742a-4955-a574-ac79b95b8bb7",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Janmashtami",
+            "date": "2025-08-26",
+            "observed": "2025-08-26",
+            "public": false,
+            "country": "ID",
+            "uuid": "b2e33235-6e80-44ef-ba2a-c1fcb8d5d40d",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Ganesh Chaturthi",
+            "date": "2025-09-07",
+            "observed": "2025-09-07",
+            "public": false,
+            "country": "ID",
+            "uuid": "537b604b-e8f5-41e2-8498-bc7cd639c7df",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Radio Republik Indonesia Day",
+            "date": "2025-09-11",
+            "observed": "2025-09-11",
+            "public": false,
+            "country": "ID",
+            "uuid": "f8ca8752-3f1c-43e2-8fd9-0ef9bd74e370",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Birth of the Prophet",
+            "date": "2025-09-16",
+            "observed": "2025-09-16",
+            "public": true,
+            "country": "ID",
+            "uuid": "73222dce-f3ec-4ac6-806b-c3ec2f03aed6",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "September Equinox",
+            "date": "2025-09-22",
+            "observed": "2025-09-22",
+            "public": false,
+            "country": "ID",
+            "uuid": "5f011c49-b83e-4bd5-9611-e9300b60cc95",
+            "weekday": {
+                "date": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                },
+                "observed": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                }
+            }
+        },
+        {
+            "name": "National Maritime Day",
+            "date": "2025-09-23",
+            "observed": "2025-09-23",
+            "public": false,
+            "country": "ID",
+            "uuid": "bd4ed338-b35e-4968-990a-6d817cafe2d9",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "National Peasants' Day",
+            "date": "2025-09-24",
+            "observed": "2025-09-24",
+            "public": false,
+            "country": "ID",
+            "uuid": "30f22184-98c8-4ea7-9eb7-cecf8820daed",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "Post and Telecommunications' Service Day",
+            "date": "2025-09-27",
+            "observed": "2025-09-27",
+            "public": false,
+            "country": "ID",
+            "uuid": "25dd7ac5-3a2c-4f1a-ab89-d7300240bbb4",
+            "weekday": {
+                "date": {
+                    "name": "Friday",
+                    "numeric": "5"
+                },
+                "observed": {
+                    "name": "Friday",
+                    "numeric": "5"
+                }
+            }
+        },
+        {
+            "name": "Railway Day",
+            "date": "2025-09-28",
+            "observed": "2025-09-28",
+            "public": false,
+            "country": "ID",
+            "uuid": "ba2b66bf-994c-4d96-834c-b5a28a5d9dd5",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "National Day of Pancasila Sanctity and September 30th Movement Memorial Day",
+            "date": "2025-10-01",
+            "observed": "2025-10-01",
+            "public": false,
+            "country": "ID",
+            "uuid": "92109693-56e0-44cf-8464-48b53be4617e",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "National Batik Day",
+            "date": "2025-10-02",
+            "observed": "2025-10-02",
+            "public": false,
+            "country": "ID",
+            "uuid": "f1c3e553-be90-4046-9086-be7ce43fa772",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Navaratri",
+            "date": "2025-10-03",
+            "observed": "2025-10-03",
+            "public": false,
+            "country": "ID",
+            "uuid": "7379449b-c4fc-4f37-86af-32e856978e17",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "Indonesian National Armed Forces Day",
+            "date": "2025-10-05",
+            "observed": "2025-10-05",
+            "public": false,
+            "country": "ID",
+            "uuid": "c65c5393-e08a-4833-abb8-6621acaa41b7",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Dussehra",
+            "date": "2025-10-12",
+            "observed": "2025-10-12",
+            "public": false,
+            "country": "ID",
+            "uuid": "ee2fb0dc-1e05-4aa6-9bd0-412b2e8691f1",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "National Santri Day",
+            "date": "2025-10-22",
+            "observed": "2025-10-22",
+            "public": false,
+            "country": "ID",
+            "uuid": "49dd8232-28ec-48a4-ba72-f3918bf51186",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "Youth Pledge Day",
+            "date": "2025-10-28",
+            "observed": "2025-10-28",
+            "public": false,
+            "country": "ID",
+            "uuid": "420f32cc-c9ee-42ac-b2e6-7a9862eca267",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Indonesian Finance Day",
+            "date": "2025-10-30",
+            "observed": "2025-10-30",
+            "public": false,
+            "country": "ID",
+            "uuid": "28b1567e-f23b-484f-83a0-52fc8b92d06b",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Festival of Lights",
+            "date": "2025-11-01",
+            "observed": "2025-11-01",
+            "public": false,
+            "country": "ID",
+            "uuid": "a5625128-4e8f-46c0-bc43-104a7d8e0413",
+            "weekday": {
+                "date": {
+                    "name": "Friday",
+                    "numeric": "5"
+                },
+                "observed": {
+                    "name": "Friday",
+                    "numeric": "5"
+                }
+            }
+        },
+        {
+            "name": "Heroes' Day",
+            "date": "2025-11-10",
+            "observed": "2025-11-10",
+            "public": false,
+            "country": "ID",
+            "uuid": "3c127226-902c-4346-aae4-d7154847e4b2",
+            "weekday": {
+                "date": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                },
+                "observed": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                }
+            }
+        },
+        {
+            "name": "Father's Day",
+            "date": "2025-11-12",
+            "observed": "2025-11-12",
+            "public": false,
+            "country": "ID",
+            "uuid": "d3a08f68-0b0a-4986-8052-b746d93a4ce2",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "National Health Day",
+            "date": "2025-11-12",
+            "observed": "2025-11-12",
+            "public": false,
+            "country": "ID",
+            "uuid": "7e7f1440-a3d9-4078-97d1-50542e3ad3ea",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "Mobile Brigade Day",
+            "date": "2025-11-14",
+            "observed": "2025-11-14",
+            "public": false,
+            "country": "ID",
+            "uuid": "43f92dfe-8990-4b6e-98c0-e4fd7e968c8d",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "World Diabetes Day",
+            "date": "2025-11-14",
+            "observed": "2025-11-14",
+            "public": false,
+            "country": "ID",
+            "uuid": "92116423-8c5c-4033-bb94-dd6e8316688a",
+            "weekday": {
+                "date": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                },
+                "observed": {
+                    "name": "Thursday",
+                    "numeric": "4"
+                }
+            }
+        },
+        {
+            "name": "Indonesian Marine Corps Birthday",
+            "date": "2025-11-15",
+            "observed": "2025-11-15",
+            "public": false,
+            "country": "ID",
+            "uuid": "9d60acfb-a8e6-4a5a-a381-f744c4677d5e",
+            "weekday": {
+                "date": {
+                    "name": "Friday",
+                    "numeric": "5"
+                },
+                "observed": {
+                    "name": "Friday",
+                    "numeric": "5"
+                }
+            }
+        },
+        {
+            "name": "Teachers' Day",
+            "date": "2025-11-25",
+            "observed": "2025-11-25",
+            "public": false,
+            "country": "ID",
+            "uuid": "b84b8c1f-4084-4e7c-8f5c-70a6f1d6a788",
+            "weekday": {
+                "date": {
+                    "name": "Monday",
+                    "numeric": "1"
+                },
+                "observed": {
+                    "name": "Monday",
+                    "numeric": "1"
+                }
+            }
+        },
+        {
+            "name": "Regional Election Day",
+            "date": "2025-11-27",
+            "observed": "2025-11-27",
+            "public": true,
+            "country": "ID",
+            "uuid": "7daa4598-7809-4159-8478-9efb2548b005",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "Anniversary of the Employees' Corps of the Republic of Indonesia",
+            "date": "2025-11-29",
+            "observed": "2025-11-29",
+            "public": false,
+            "country": "ID",
+            "uuid": "e0b2089e-20bb-4bc7-aa48-d74b8197601f",
+            "weekday": {
+                "date": {
+                    "name": "Friday",
+                    "numeric": "5"
+                },
+                "observed": {
+                    "name": "Friday",
+                    "numeric": "5"
+                }
+            }
+        },
+        {
+            "name": "Nusantara Day",
+            "date": "2025-12-13",
+            "observed": "2025-12-13",
+            "public": false,
+            "country": "ID",
+            "uuid": "7d4a6afa-ee42-4527-9c24-3c5ebf03de06",
+            "weekday": {
+                "date": {
+                    "name": "Friday",
+                    "numeric": "5"
+                },
+                "observed": {
+                    "name": "Friday",
+                    "numeric": "5"
+                }
+            }
+        },
+        {
+            "name": "Indonesian Army Day",
+            "date": "2025-12-15",
+            "observed": "2025-12-15",
+            "public": false,
+            "country": "ID",
+            "uuid": "4e4a6311-0898-48ee-93c3-9a3277cdd57c",
+            "weekday": {
+                "date": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                },
+                "observed": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                }
+            }
+        },
+        {
+            "name": "December Solstice",
+            "date": "2025-12-21",
+            "observed": "2025-12-21",
+            "public": false,
+            "country": "ID",
+            "uuid": "35eeb69b-0616-45b1-8df5-63571f9af671",
+            "weekday": {
+                "date": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                },
+                "observed": {
+                    "name": "Saturday",
+                    "numeric": "6"
+                }
+            }
+        },
+        {
+            "name": "Mother's Day",
+            "date": "2025-12-22",
+            "observed": "2025-12-22",
+            "public": false,
+            "country": "ID",
+            "uuid": "0d42771d-cf14-46d5-a76f-3c71e362e33f",
+            "weekday": {
+                "date": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                },
+                "observed": {
+                    "name": "Sunday",
+                    "numeric": "7"
+                }
+            }
+        },
+        {
+            "name": "Christmas Eve",
+            "date": "2025-12-24",
+            "observed": "2025-12-24",
+            "public": false,
+            "country": "ID",
+            "uuid": "7c4c9d0d-f3c7-4b08-b3d8-22df3f542947",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        },
+        {
+            "name": "Christmas Day",
+            "date": "2025-12-25",
+            "observed": "2025-12-25",
+            "public": true,
+            "country": "ID",
+            "uuid": "3146226c-2362-4d0b-ab38-53c2fc36c330",
+            "weekday": {
+                "date": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                },
+                "observed": {
+                    "name": "Wednesday",
+                    "numeric": "3"
+                }
+            }
+        },
+        {
+            "name": "New Year's Eve",
+            "date": "2025-12-31",
+            "observed": "2025-12-31",
+            "public": false,
+            "country": "ID",
+            "uuid": "a157ee05-e995-4324-a0a3-6bb5c2c3423e",
+            "weekday": {
+                "date": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                },
+                "observed": {
+                    "name": "Tuesday",
+                    "numeric": "2"
+                }
+            }
+        }
+    ]
+}
