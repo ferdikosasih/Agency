@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./Flabs.Agency/Flabs.Agency.sln
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build ./Flabs.Agency/Flabs.Agency.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test ./Flabs.Agency/Agency.Service.Tests/Agency.Service.Tests.csproj --no-build --verbosity normal
