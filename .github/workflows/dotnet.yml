@@ -7,11 +7,11 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'Flabs.Agency/**'
+      - 'Flabs.Agency/Agency.Service/**'
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'Flabs.Agency/**'
+      - 'Flabs.Agency/Agency.Service/**'
 
 jobs:
   build:
