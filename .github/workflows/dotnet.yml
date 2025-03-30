@@ -27,4 +27,4 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./Flabs.Agency/Flabs.Agency.sln
     - name: Build
-      run: dotnet build ./Flabs.Agency/Flabs.Agency.sln --no-restore
+      run: dotnet build ./Flabs.Agency/Flabs.Agency.sln --configuration Release --no-restore
