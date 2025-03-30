@@ -28,10 +28,7 @@ try
         .UseSecurity()
         .UseFastEndpoints()
         .UseSwaggerGen();
-    if (app.Environment.IsDevelopment())
-    {
-        app.DatabaseRefresh();
-    }
+    app.DatabaseRefresh();
 
     app.Run();
 }
