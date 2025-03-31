@@ -112,14 +112,6 @@ jobs:
           NEW_VERSION=$(npx standard-version --dry-run | grep 'tagging release' | sed -E 's/.*tagging release (v?[0-9]+\.[0-9]+\.[0-9]+).*/\1/')
           echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
           echo "Next version: $NEW_VERSION"
-          
-      - name: Get latest merged PR description
-        id: get_pr
-        run: |
-          PR_DATA=$(gh pr list --state merged --sort merged --limit 1 --json body --jq '.[0].body')
-          echo "pr_body=$PR_DATA" >> $GITHUB_ENV
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create GitHub Release
         id: create_release
         uses: actions/create-release@v1
@@ -128,6 +120,6 @@ jobs:
         with:
           tag_name: ${{ env.NEW_VERSION }}
           release_name: "Release ${{ env.NEW_VERSION }}"
-          body: "${{ env.pr_body || 'New release automatically created after deployment.' }}"
+          body: "New release automatically created after deployment"
           draft: false
           prerelease: false
