@@ -31,8 +31,7 @@ Make sure you have the following installed:
 - PostgreSQL 17 database
 - Docker (for Testcontainers)
 ### **2️⃣ How to use**
-- Run application - dotnet run
-- Open Swagger http://localhost:5288/swagger/index.html
+- Open Browser/Swagger : https://agency-cdawgyavd2eyaubb.southeastasia-01.azurewebsites.net/swagger/index.html
 - for demo purpose account UserId : agent1 
 ---
 ## 📖 Technical Design & Considerations
@@ -43,12 +42,14 @@ Make sure you have the following installed:
 - Serilogs for common logging
 - Supports timezone capabilities for booking appointment
 - Unit test not implemented at this time, only integration tests
-- Containerized approach
 ---
 ## 🔒Security
 - RSA Asymmetrics SHA256
 - Jwt token
 - Token expired set to 1 hour
+## Deployment
+- Github Actions CI to Azure Web App Service (Linux)
+- Azure Postgre Flexible Server
 ---
 ## 📌Future Improvements
 - Introduce unit test when features much more complex with business logics
@@ -57,11 +58,14 @@ Make sure you have the following installed:
 - Auto register DI for features development
 - Token for queue no can be developed using SmartFormat if needed more human read and sequential.
 - Introduce indexing tables when needed
+- Introduce environment staging & production in azure
+- Introduce CI Integrations Test, soon!
 ---
 ## ⚠️Limitation
 - Development environment tested (local notebook)
 - Not tested when deploy to Azure, container based or any Cloud provider
 - Not yet tested using Github CI -- soon!
+- Develop & Testing using Rider IDE
 ---
 ## ✨ Contributing
 
@@ -73,6 +77,7 @@ Pull requests are welcome! Follow these steps:
 4. Push to the branch (`git push origin feature-name`)
 5. Open a pull request
 
+[![Production](https://github.com/ferdikosasih/Agency/actions/workflows/deploy.yml/badge.svg)](https://github.com/ferdikosasih/Agency/actions/workflows/deploy.yml)
 [![.NET](https://github.com/ferdikosasih/Agency/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/ferdikosasih/Agency/actions/workflows/dotnet.yml)
 
 
