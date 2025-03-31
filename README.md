@@ -62,9 +62,6 @@ Make sure you have the following installed:
 - Introduce CI Integrations Test, soon!
 ---
 ## ⚠️Limitation
-- Development environment tested (local notebook)
-- Not tested when deploy to Azure, container based or any Cloud provider
-- Not yet tested using Github CI -- soon!
 - Develop & Testing using Rider IDE
 ---
 ## ✨ Contributing
