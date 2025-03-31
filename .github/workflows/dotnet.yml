@@ -4,10 +4,6 @@
 name: .NET
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - 'Flabs.Agency/Agency.Service/**'
   pull_request:
     branches: [ "main" ]
     paths:
