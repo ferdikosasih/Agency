@@ -27,6 +27,8 @@ env:
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'Flabs.Agency/Agency.Service/**'
   workflow_dispatch:
 
 permissions:
