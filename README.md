@@ -1,3 +1,5 @@
+[![Production](https://github.com/ferdikosasih/Agency/actions/workflows/deploy.yml/badge.svg)](https://github.com/ferdikosasih/Agency/actions/workflows/deploy.yml)
+[![.NET](https://github.com/ferdikosasih/Agency/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/ferdikosasih/Agency/actions/workflows/dotnet.yml)
 # Flabs Agency
 ## 📌 Overview
 It's agency system to manages appointments for Customers / Clients.
@@ -73,9 +75,3 @@ Pull requests are welcome! Follow these steps:
 3. Commit changes (`git commit -m "Add new feature"`)
 4. Push to the branch (`git push origin feature-name`)
 5. Open a pull request
-
-[![Production](https://github.com/ferdikosasih/Agency/actions/workflows/deploy.yml/badge.svg)](https://github.com/ferdikosasih/Agency/actions/workflows/deploy.yml)
-[![.NET](https://github.com/ferdikosasih/Agency/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/ferdikosasih/Agency/actions/workflows/dotnet.yml)
-
-
-
