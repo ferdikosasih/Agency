@@ -17,7 +17,7 @@
 # For more information on the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
 
-name: This is the one
+name: Build Deploy Release
 
 env:
   AZURE_WEBAPP_NAME: agency    # set this to the name of your Azure Web App
@@ -32,7 +32,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -72,7 +72,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: 'Development'
+      name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
@@ -88,3 +88,46 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          
+  release:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for semantic versioning
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install SemVer tool
+        run: npm install -g standard-version
+
+      - name: Determine next version
+        id: versioning
+        run: |
+          NEW_VERSION=$(npx standard-version --dry-run | grep 'tagging release' | sed -E 's/.*tagging release (v?[0-9]+\.[0-9]+\.[0-9]+).*/\1/')
+          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+          echo "Next version: $NEW_VERSION"
+          
+      - name: Get latest merged PR description
+        id: get_pr
+        run: |
+          PR_DATA=$(gh pr list --state merged --sort merged --limit 1 --json body --jq '.[0].body')
+          echo "pr_body=$PR_DATA" >> $GITHUB_ENV
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.NEW_VERSION }}
+          release_name: "Release ${{ env.NEW_VERSION }}"
+          body: "${{ env.pr_body || 'New release automatically created after deployment.' }}"
+          draft: false
+          prerelease: false
