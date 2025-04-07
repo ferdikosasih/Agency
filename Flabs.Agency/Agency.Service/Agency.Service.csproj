@@ -32,6 +32,7 @@
     </ItemGroup>
     <ItemGroup>
         <InternalsVisibleTo Include="Agency.Service.Tests" />
+        <internalsVisibleTo Include="Agency.Xunit"/>
     </ItemGroup>
     <ItemGroup>
       <None Update="private-key.pem">

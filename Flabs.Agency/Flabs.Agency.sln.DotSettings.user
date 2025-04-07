@@ -32,7 +32,10 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AValidationFailure_002Ecs_002Fl_003AC_0021_003FUsers_003F172147_002EFerdinand_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F3520bf5c151bbc5aed94ba6abea697eaaee2b96fe96341613fef02be1cc54_003FValidationFailure_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:Boolean x:Key="/Default/Environment/EntityFramework/EntityFrameworkDisabledQueryInspectionsContexts/=Agency_002EService_002EInfrastructure_002EApplicationDbContext/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7aa1375a_002D8b89_002D4bfb_002D9e42_002De9638c815c56/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Agency.Service.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="D:\Source\Agency\Flabs.Agency\Agency.Service.Tests" Presentation="&amp;lt;Agency.Service.Tests&amp;gt;" /&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Project Location="D:\Source\Agency\Flabs.Agency\Agency.Service.Tests" Presentation="&amp;lt;Agency.Service.Tests&amp;gt;" /&gt;&#xD;
+    &lt;Project Location="D:\Source\Agency\Flabs.Agency\Agency.Xunit\Agency.Xunit" Presentation="&amp;lt;Agency.Xunit&amp;gt;" /&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
 	

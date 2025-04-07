@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agency.Service", "Agency.Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agency.Service.Tests", "Agency.Service.Tests\Agency.Service.Tests.csproj", "{DBBE4A43-26E1-4F45-9763-A840C86D515C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agency.Xunit", "Agency.Xunit\Agency.Xunit\Agency.Xunit.csproj", "{24835426-5C1E-4C83-B684-D43537EEC7FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{DBBE4A43-26E1-4F45-9763-A840C86D515C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBBE4A43-26E1-4F45-9763-A840C86D515C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBBE4A43-26E1-4F45-9763-A840C86D515C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24835426-5C1E-4C83-B684-D43537EEC7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24835426-5C1E-4C83-B684-D43537EEC7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24835426-5C1E-4C83-B684-D43537EEC7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24835426-5C1E-4C83-B684-D43537EEC7FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
